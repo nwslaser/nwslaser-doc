@@ -28,18 +28,22 @@ nav:
   - 'Accueil': index.md
   - 'Nos Gammes':
     - 'LaserKube':
-      - 'LaserKube-X': laserkube/laserkube-x.md
-      - 'LaserKube-MAX': laserkube/laserkube-max.md
-      - 'LaserKube-MAX UV': laserkube/laserkube-max-uv.md
-    - 'IK-Series':
-      - 'IK-Series M20': ik-series/ik-series-m20.md
-      - 'IK-Series UV5': ik-series/ik-series-uv5.md
-      - 'IK-Series CODUO': ik-series/ik-series-coduo.md
-    - 'IK-BOX': ik-box/index.md
-    - 'CUT-M': cut-m/index.md
-    - 'CUT-X PRO': cut-x-pro/index.md
-  - 'Page d attente type': en-construction.md # Utile pour le développement
+      - 'LaserKube-X':
+        - 'Guide de démarrage rapide': LaserKube/LaserKube-X/guide-demarrage-rapide_LK.md
+        - 'Notice complète': LaserKube/LaserKube-X/notice-complete_LK.md
+      - 'LaserKube-Max': LaserKube/LaserKube-Max/index.md
+      - 'LaserKube-Max-UV': LaserKube/LaserKube-Max-UV/index.md
 
+    - 'IK-Series':
+      - 'IK-Series CODUO': IK-Series/ik-series-coduo.md
+      - 'IK-Series M20': IK-Series/ik-series-m20.md
+      - 'IK-Series UV5': IK-Series/ik-series-uv5.md
+
+    - 'IK-Box': IK-Box/index.md
+    - 'Cut-M': Cut-M/index.md
+    - 'Cut-X-Pro': Cut-X-Pro/index.md
+
+  - 'Page en construction': en-construction.md
 # Extensions Markdown (recommandé de les ajouter si elles n'y sont pas)
 markdown_extensions:
   - admonition
