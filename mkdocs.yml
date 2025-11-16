@@ -1,1 +1,34 @@
-site_name: My Docs
+# Informations sur le site
+site_name: NWS Laser Documentations
+site_url: https://doc.nwslaser.fr/
+
+# Thème et apparence
+theme:
+  name: material
+  language: fr
+  logo: assets/nws_laser_tr.png
+  favicon: assets/nws_laser_tr.png
+  palette:
+    # Palette de couleurs
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Passer au mode sombre
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Passer au mode clair
+
+# Navigation (vous ajouterez vos pages ici )
+nav:
+  - Accueil: index.md
+
+# Extensions Markdown (recommandé de les ajouter si elles n'y sont pas)
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
