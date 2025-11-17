@@ -8,6 +8,8 @@ theme:
   language: fr
   logo: assets/nws_laser_tr.png
   favicon: assets/nws_laser_tr.png
+  features:
+    - footer.instant  # <-- Force l'affichage immédiat du pied de page
   palette:
     # Palette pour le mode clair
     - scheme: default
@@ -24,7 +26,17 @@ theme:
       toggle:
         icon: material/weather-night
         name: Passer au mode clair
-
+  copyright: |
+    <div class="translate-container">
+      <p>Pour lire notre documentation dans une autre langue, vous pouvez utiliser Google Traduction.</p>
+      <p>
+        Raccourcis :
+        <a href="https://translate.google.com/translate?sl=fr&tl=en&u={{ page.url | url }}" target="_blank" rel="noopener">Anglais (English )</a> |
+        <a href="https://translate.google.com/translate?sl=fr&tl=es&u={{ page.url | url }}" target="_blank" rel="noopener">Espagnol (Español )</a> |
+        <a href="https://translate.google.com/translate?sl=fr&tl=de&u={{ page.url | url }}" target="_blank" rel="noopener">Allemand (Deutsch )</a> |
+        <a href="https://translate.google.com/translate?sl=fr&tl=it&u={{ page.url | url }}" target="_blank" rel="noopener">Italien (Italiano )</a>
+      </p>
+    </div>
 # Navigation (vous ajouterez vos pages ici )
 nav:
   - 'Accueil': index.md

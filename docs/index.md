@@ -1,5 +1,16 @@
 # Bienvenue sur le Centre de Documentation NWS Laser
 
+!!! tip "Traduire cette page"
+    Si vous souhaitez lire notre documentation dans une autre langue, vous pouvez utiliser Google Traduction pour traduire ce site web.
+
+    Pour votre commodité, voici des raccourcis pour les langues les plus courantes :
+    [Anglais (English)](https://translate.google.com/translate?sl=fr&tl=en&u={{ page.url | url }} ) ·
+    [Espagnol (Español)](https://translate.google.com/translate?sl=fr&tl=es&u={{ page.url | url }} ) ·
+    [Allemand (Deutsch)](https://translate.google.com/translate?sl=fr&tl=de&u={{ page.url | url }} ) ·
+    [Italien (Italiano)](https://translate.google.com/translate?sl=fr&tl=it&u={{ page.url | url }} )
+
+---
+
 ![Logo NWS Laser](assets/nws_laser_tr.png){ width="150" }
 
 **Votre source unique pour tous les manuels, guides et ressources techniques concernant nos solutions de marquage laser.**

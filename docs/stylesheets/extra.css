@@ -3,4 +3,12 @@
   --md-primary-fg-color: #00aeef;
   --md-primary-fg-color--light: #00cfff; /* Une version plus claire pour le survol */
   --md-primary-fg-color--dark: #008ecb;  /* Une version plus foncée */
+
+/* Style pour le conteneur de traduction dans le footer */
+.md-copyright .translate-container {
+  text-align: center; /* Centre le texte */
+  margin-top: 20px;   /* Ajoute un peu d'espace au-dessus */
+  padding-top: 20px;  /* Ajoute de l'espace à l'intérieur */
+  border-top: 1px solid var(--md-default-fg-color--lightest); /* Ajoute une ligne de séparation discrète */
+}
 }
