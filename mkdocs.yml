@@ -36,6 +36,7 @@ nav:
       - 'LaserKube-Max': LaserKube/LaserKube-Max/index.md
       - 'LaserKube-Max-UV': LaserKube/LaserKube-Max-UV/index.md
 
+    # --- SECTION CORRIGÉE ET SIMPLIFIÉE ---
     - 'IK-Series':
       - 'IK-Series CODUO': IK-Series/ik-series-coduo.md
       - 'IK-Series F20': IK-Series/ik-series-f20.md
