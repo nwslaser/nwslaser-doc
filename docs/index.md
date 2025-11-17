@@ -13,7 +13,7 @@
 
 ![Logo NWS Laser](assets/nws_laser_tr.png){ width="150" }
 
-**Votre source unique pour tous les manuels, guides et ressources techniques concernant nos solutions de marquage et de découpe laser.**
+**Votre source unique et officielle pour tous les manuels, guides et ressources techniques concernant nos solutions de marquage et de découpe laser.**
 
 ---
 
