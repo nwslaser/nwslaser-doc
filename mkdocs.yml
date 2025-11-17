@@ -38,7 +38,7 @@ nav:
 
     - 'IK-Series':
       - 'IK-Series CODUO': IK-Series/ik-series-coduo.md
-      - 'IK-Series M20': IK-Series/ik-series-f20.md
+      - 'IK-Series F20': IK-Series/ik-series-f20.md
       - 'IK-Series UV5': IK-Series/ik-series-uv5.md
 
     - 'IK-Box': IK-Box/index.md
