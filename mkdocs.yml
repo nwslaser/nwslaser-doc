@@ -52,22 +52,14 @@ extra_css:
   - stylesheets/extra.css
 
 markdown_extensions:
-  # Permet les blocs d'avertissement comme !!! note
+  # --- CONFIGURATION STANDARD ET RECOMMANDÉE ---
   - admonition
-  # Permet d'ajouter des attributs HTML comme { width="..." }
-  - attr_list
-  # Permet d'interpréter le Markdown à l'intérieur de balises HTML (crucial pour les cartes)
-  - md_in_html
-  # Améliorations diverses pour la coloration du code, les listes, etc.
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
+  - attr_list
+  - md_in_html
   - pymdownx.snippets
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+  
 
 # ===================================================================

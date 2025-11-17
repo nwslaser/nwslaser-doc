@@ -24,6 +24,8 @@ hide:
 
 --8<-- "docs/_shared/consignes.md"
 
+--8<-- "docs/_shared/symboles_utilises.md"
+
 ---
 
 ## 1. Description du Produit

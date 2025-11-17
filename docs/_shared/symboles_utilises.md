@@ -1,0 +1,2 @@
+!!! laser "NOTE"
+    Using NWS1 laser device is permitted after the incorporation in a laser system in which the Manufacturer of the whole machine have taken all the safety measures related to the intended use (see EN ISO11553-1 – Safety of laser machinery; utilized in a restricted location/controlled/public).
