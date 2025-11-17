@@ -25,7 +25,7 @@ Naviguez directement vers la gamme de produits qui vous intéresse ou utilisez l
 
 <div class="grid cards" markdown>
 
--   __LaserKube__
+-   __LaserKube-X__
 
     ---
 
@@ -33,13 +33,13 @@ Naviguez directement vers la gamme de produits qui vous intéresse ou utilisez l
 
     [Consulter la documentation &rarr;](LaserKube/LaserKube-X/guide-demarrage-rapide_LK.md) 
 
--   __IK-Series__
+-   __IK-Series-F20__
 
     ---
 
     La gamme de têtes laser intégrables, conçue pour une flexibilité maximale et des performances industrielles.
 
-    [Consulter la documentation &rarr;](IK-Series/ik-series-m20.md)
+    [Consulter la documentation &rarr;](IK-Series/ik-series-f20.md)
 
 -   __Solutions Spécifiques__
 

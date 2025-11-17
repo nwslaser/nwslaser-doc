@@ -28,7 +28,7 @@ theme:
 # Navigation (vous ajouterez vos pages ici )
 nav:
   - 'Accueil': index.md
-  - 'Nos Gammes':
+  - 'Nos machines':
     - 'LaserKube':
       - 'LaserKube-X':
         - 'Guide de démarrage rapide': LaserKube/LaserKube-X/guide-demarrage-rapide_LK.md
@@ -38,14 +38,14 @@ nav:
 
     - 'IK-Series':
       - 'IK-Series CODUO': IK-Series/ik-series-coduo.md
-      - 'IK-Series M20': IK-Series/ik-series-m20.md
+      - 'IK-Series M20': IK-Series/ik-series-f20.md
       - 'IK-Series UV5': IK-Series/ik-series-uv5.md
 
     - 'IK-Box': IK-Box/index.md
     - 'Cut-M': Cut-M/index.md
     - 'Cut-X-Pro': Cut-X-Pro/index.md
 
-  - 'Page en construction': en-construction.md
+
 # Extensions Markdown (recommandé de les ajouter si elles n'y sont pas)
 
 extra_css:

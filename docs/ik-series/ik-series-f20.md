@@ -7,10 +7,10 @@ hide:
 <!-- BANDEAU HÉROS SANS BOUTONS -->
 <div class="hero-classic">
   <div class="hero-title">
-    <h1>IK-Series UV5</h1>
+    <h1>IK-Series F20</h1> <!-- J'ai utilisé F20 comme demandé -->
   </div>
   <div class="hero-image-only">
-    <img src="../../assets/ik_series.png" alt="Machine IK-Series UV5">
+    <img src="../../assets/ik_series.png" alt="Machine IK-Series F20">
   </div>
   <div class="hero-subtitle">
     <p>Notice Complète & Guide d'Utilisation</p>

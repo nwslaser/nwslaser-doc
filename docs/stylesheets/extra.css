@@ -12,3 +12,48 @@
   border-top: 1px solid var(--md-default-fg-color--lightest); /* Ajoute une ligne de séparation discrète */
 }
 }
+/* Style pour le composant "Héros" en haut de page */
+/* Conteneur principal du bandeau */
+.hero-classic {
+  text-align: center; /* Centre tout le contenu */
+  margin-top: -2rem;  /* Compense la marge du haut de page pour un look plus intégré */
+  margin-bottom: 3rem; /* Ajoute un bel espace après le bandeau */
+}
+
+/* Style pour le titre principal (au-dessus de l'image) */
+.hero-title h1 {
+  font-size: 3rem;         /* Taille du titre */
+  font-weight: 700;        /* Épaisseur du texte */
+  color: var(--md-primary-fg-color); /* Utilise la couleur primaire de votre thème (votre bleu #00aeef) */
+  margin-bottom: 1.5rem;   /* Espace entre le titre et l'image */
+}
+
+/* Conteneur de l'image seule */
+.hero-image-only img {
+  width: 100%;             /* L'image prend toute la largeur */
+  max-width: 800px;        /* Mais ne dépasse pas 800px pour ne pas être trop énorme */
+  height: auto;            /* Garde les proportions de l'image */
+  border-radius: 8px;      /* Ajoute des coins légèrement arrondis */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15); /* Ajoute une ombre portée discrète */
+}
+
+/* Style pour le sous-titre (en dessous de l'image) */
+.hero-subtitle p {
+  font-size: 1.5rem;       /* Taille du sous-titre */
+  color: var(--md-text-fg-color--light); /* Utilise une couleur de texte secondaire du thème */
+  margin-top: 1.5rem;      /* Espace entre l'image et le sous-titre */
+}
+
+.hero-text h1 {
+  font-size: 4rem; /* Titre plus grand */
+  font-weight: 700; /* Un peu plus gras */
+  color: #00aeef;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7); /* Ajoute une ombre portée pour la lisibilité */
+}
+
+.hero-text p {
+  font-size: 1.5rem; /* Sous-titre plus grand */
+  color: #00aeef;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7); /* Ombre portée plus légère */
+}
+
