@@ -1,17 +1,63 @@
-# Welcome to MkDocs
+# Bienvenue sur le Centre de Documentation NWS Laser
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+![Logo NWS Laser](assets/nws_laser_tr.png){ width="150" }
 
-## Commands
+**Votre source unique pour tous les manuels, guides et ressources techniques concernant nos solutions de marquage laser.**
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---
 
-## Project layout
+## Explorez nos documentations par gamme de produits
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Ce portail est conçu pour vous fournir un accès rapide et facile à toutes les informations nécessaires pour installer, utiliser et maintenir votre équipement NWS Laser en toute sécurité et efficacité.
+
+Naviguez directement vers la gamme de produits qui vous intéresse ou utilisez la barre de recherche en haut de la page pour trouver une information spécifique.
+
+<div class="grid cards" markdown>
+
+-   __LaserKube__
+
+    ---
+
+    Nos solutions compactes et sécurisées, idéales pour une intégration facile dans n'importe quel environnement de travail.
+
+    [Consulter la documentation &rarr;](LaserKube/LaserKube-X/guide-demarrage-rapide_LK.md) 
+
+-   __IK-Series__
+
+    ---
+
+    La gamme de têtes laser intégrables, conçue pour une flexibilité maximale et des performances industrielles.
+
+    [Consulter la documentation &rarr;](IK-Series/ik-series-m20.md)
+
+-   __Solutions Spécifiques__
+
+    ---
+
+    Découvrez nos machines spécialisées comme l'IK-BOX, le CUT-M et le CUT-X-PRO, conçues pour des applications uniques.
+
+    [Consulter la documentation &rarr;](IK-Box/index.md)
+
+</div>
+---
+
+## Comment utiliser ce site ?
+
+!!! tip "Quelques conseils pour une navigation optimale"
+
+    *   **Menu de navigation :** Utilisez le menu sur la gauche pour explorer les différentes gammes de produits et accéder aux documents spécifiques (notices, guides de démarrage, etc.).
+    *   **Barre de recherche :** La fonction de recherche est extrêmement puissante. Tapez un mot-clé ("focalisation", "LightBurn", "sécurité") pour trouver instantanément toutes les pages pertinentes.
+    *   **Mode sombre :** Préservez vos yeux en passant au mode sombre grâce à l'icône de lune/soleil en haut de la page.
+
+## Une ressource en constante évolution
+
+!!! info "Mises à jour"
+    Ce centre de documentation est un projet vivant. Nous nous engageons à l'enrichir et à le mettre à jour continuellement pour refléter les dernières améliorations de nos produits et logiciels. Si une section est marquée comme "en construction", soyez assuré qu'elle sera disponible très prochainement.
+
+## Besoin d'aide ?
+
+Si vous ne trouvez pas l'information que vous recherchez ou si vous avez besoin d'une assistance personnalisée, notre équipe de support technique est à votre disposition.
+
+*   **Téléphone :** [+33 (0) 4 81 68 04 04](tel:+33481680404)
+*   **Email :** [info@nwslaser.fr](mailto:info@nwslaser.fr)
+*   **Site Web :** [https://nwslaser.fr](https://nwslaser.fr )

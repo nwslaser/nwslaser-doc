@@ -9,15 +9,17 @@ theme:
   logo: assets/nws_laser_tr.png
   favicon: assets/nws_laser_tr.png
   palette:
-    # Palette de couleurs
+    # Palette pour le mode clair
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: custom  # <-- On utilise 'custom' car ce n'est pas une couleur standard
+      accent: indigo   # <-- L'accent est pour les éléments interactifs (boutons, etc.)
       toggle:
         icon: material/weather-sunny
         name: Passer au mode sombre
+
+    # Palette pour le mode sombre
     - scheme: slate
-      primary: black
+      primary: custom  # <-- On peut aussi l'utiliser pour le mode sombre
       accent: indigo
       toggle:
         icon: material/weather-night
@@ -45,7 +47,27 @@ nav:
 
   - 'Page en construction': en-construction.md
 # Extensions Markdown (recommandé de les ajouter si elles n'y sont pas)
+
+extra_css:
+  - stylesheets/extra.css
+
 markdown_extensions:
+  # Permet les blocs d'avertissement comme !!! note
   - admonition
+  # Permet d'ajouter des attributs HTML comme { width="..." }
+  - attr_list
+  # Permet d'interpréter le Markdown à l'intérieur de balises HTML (crucial pour les cartes)
+  - md_in_html
+  # Améliorations diverses pour la coloration du code, les listes, etc.
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+# ===================================================================

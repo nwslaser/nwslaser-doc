@@ -1,0 +1,6 @@
+/* Déclaration de notre couleur primaire personnalisée */
+:root {
+  --md-primary-fg-color: #00aeef;
+  --md-primary-fg-color--light: #00cfff; /* Une version plus claire pour le survol */
+  --md-primary-fg-color--dark: #008ecb;  /* Une version plus foncée */
+}
