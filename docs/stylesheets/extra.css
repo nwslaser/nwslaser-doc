@@ -56,4 +56,19 @@
   color: #00aeef;
   text-shadow: 1px 1px 4px rgba(0,0,0,0.7); /* Ombre portée plus légère */
 }
+/* Crée un conteneur flexible avec une bordure */
+.image-texte-cadre {
+  display: flex;          /* Aligne les éléments (image, texte) côte à côte */
+  align-items: center;    /* Centre verticalement les éléments dans le cadre */
+  border: 1px solid #ccc; /* Ajoute une bordure grise fine */
+  border-radius: 4px;     /* Arrondit légèrement les coins */
+  padding: 15px;          /* Ajoute de l'espace à l'intérieur du cadre */
+  margin: 1em 0;          /* Ajoute un peu d'espace au-dessus et en-dessous */
+}
+
+/* Style pour l'image dans le conteneur */
+.image-texte-cadre img {
+  margin-right: 15px; /* Crée un espace entre l'image et le texte */
+  max-width: 150px;     /* Limite la largeur de l'image pour qu'elle ne soit pas énorme. Ajustez cette valeur si besoin ! */
+}
 

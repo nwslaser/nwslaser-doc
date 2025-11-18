@@ -9,18 +9,22 @@ theme:
   logo: assets/nws_laser_tr.png
   favicon: assets/nws_laser_tr.png
   palette:
+    # Palette pour le mode clair
     - scheme: default
-      primary: custom
-      accent: indigo
+      primary: custom  # <-- On utilise 'custom' car ce n'est pas une couleur standard
+      accent: indigo   # <-- L'accent est pour les éléments interactifs (boutons, etc.)
       toggle:
         icon: material/weather-sunny
         name: Passer au mode sombre
+
+    # Palette pour le mode sombre
     - scheme: slate
-      primary: custom
+      primary: custom  # <-- On peut aussi l'utiliser pour le mode sombre
       accent: indigo
       toggle:
         icon: material/weather-night
         name: Passer au mode clair
+  # --- AJOUTS POUR LA PERSONNALISATION ---
   features:
     - content.code.annotate
     - content.tabs.link
@@ -30,20 +34,21 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
-
-# 👉 EXTRA DOIT ÊTRE AU MÊME NIVEAU QUE theme/nav
-extra:
-  admonition:
-    laser:
-      name: Attention Laser
-      icon: assets/icons/danger_laser.png
-      color: "#d81b60"
-  social:
-    - icon: material/web
-      link: https://nwslaser.fr
-      name: Site NWS Laser
-
-# Navigation
+    - social
+  
+  extra:
+    admonition:
+      # Déclaration de notre admonition personnalisée
+      laser:
+        name: Attention Laser
+        icon: /assets/icons/danger_laser.png # Chemin simple vers l'icône
+        color: "#d81b60" # Une couleur rouge/rose pour le style "danger"
+    social:
+      - icon: material/web
+        link: https://nwslaser.fr
+        name: Site NWS Laser 
+  
+# Navigation (vous ajouterez vos pages ici )
 nav:
   - 'Accueil': index.md
   - 'Nos machines':
@@ -53,18 +58,25 @@ nav:
         - 'Notice complète': LaserKube/LaserKube-X/notice-complete_LK.md
       - 'LaserKube-Max': LaserKube/LaserKube-Max/index.md
       - 'LaserKube-Max-UV': LaserKube/LaserKube-Max-UV/index.md
+
+    # --- SECTION CORRIGÉE ET SIMPLIFIÉE ---
     - 'IK-Series':
       - 'IK-Series CODUO': IK-Series/ik-series-coduo.md
       - 'IK-Series F20': IK-Series/ik-series-f20.md
       - 'IK-Series UV5': IK-Series/ik-series-uv5.md
+
     - 'IK-Box': IK-Box/index.md
     - 'Cut-M': Cut-M/index.md
     - 'Cut-X-Pro': Cut-X-Pro/index.md
+
+
+# Extensions Markdown (recommandé de les ajouter si elles n'y sont pas)
 
 extra_css:
   - stylesheets/extra.css
 
 markdown_extensions:
+  # --- CONFIGURATION STANDARD ET RECOMMANDÉE ---
   - admonition
   - pymdownx.details
   - pymdownx.superfences
@@ -74,3 +86,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  
+
+# ===================================================================

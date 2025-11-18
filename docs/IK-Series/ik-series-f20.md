@@ -21,11 +21,13 @@ hide:
 <!-- Contenu de la notice qui commence ici -->
 
 --8<-- "docs/_shared/merci.md"
-
+<br>
 --8<-- "docs/_shared/consignes.md"
-
+<br>
 --8<-- "docs/_shared/symboles_utilises.md"
-
+<br>
+--8<-- "docs/_shared/classification_laser_integrable.md"
+<br>
 ---
 
 ## 1. Description du Produit
