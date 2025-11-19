@@ -1,4 +1,4 @@
-## Configuration des Connecteurs
+## Configuration des Connecteurs (Gamme IK-SERIES)
 
 Cette page détaille la configuration des broches pour les principaux connecteurs de l'équipement.
 
