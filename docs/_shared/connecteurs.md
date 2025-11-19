@@ -2,11 +2,14 @@
 
 Cette page détaille la configuration des broches pour les principaux connecteurs de l'équipement.
 
+![Schéma de la face arrière](../assets/draws/iks-fa.drawio.png)
+
+
 ### Connecteur d'alimentation 24VDC (6 broches)
 
 Ce connecteur fournit l'alimentation principale 24VDC à l'appareil.
 
-![Schéma du connecteur d'alimentation 6 broches](../assets/molex6.png)
+![Schéma du connecteur alimentation 6 broches](../assets/molex6.png)
 
 | Broche | Couleur câble | Désignation |
 | :--- | :--- | :--- |
@@ -96,7 +99,7 @@ Les entrées et sorties de ce connecteur présentent les caractéristiques élec
 !!! quote "Référence du câble longueur 5m optionnel"
     IKS-CA-ES5
 
-### Connecteur Ethernet PC
+### Connecteur Ethernet PC laser
 
 Ce connecteur permet de connecter le laser à un PC au travers d'une liaison Ethernet.
 
