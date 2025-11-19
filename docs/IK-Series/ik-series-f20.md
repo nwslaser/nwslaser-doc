@@ -28,6 +28,8 @@ hide:
 <br>
 --8<-- "docs/_shared/classification_laser_integrable.md"
 <br>
+--8<-- "docs/_shared/securite.md"
+<br>
 ---
 
 ## 1. Description du Produit

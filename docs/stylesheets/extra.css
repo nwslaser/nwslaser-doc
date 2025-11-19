@@ -69,6 +69,6 @@
 /* Style pour l'image dans le conteneur */
 .image-texte-cadre img {
   margin-right: 15px; /* Crée un espace entre l'image et le texte */
-  max-width: 150px;     /* Limite la largeur de l'image pour qu'elle ne soit pas énorme. Ajustez cette valeur si besoin ! */
+  max-width: 120px;     /* Limite la largeur de l'image pour qu'elle ne soit pas énorme. Ajustez cette valeur si besoin ! */
 }
 
