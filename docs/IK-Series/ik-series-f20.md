@@ -31,7 +31,7 @@ hide:
 
 ---
 
-## 1. Description du Produit
+# 1. Description du Produit
 
 --8<-- "docs/_shared/classification_laser_integrable.md"
 <br>

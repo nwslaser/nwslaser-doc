@@ -8,6 +8,7 @@ theme:
   language: fr
   logo: assets/nws_laser_tr.png
   favicon: assets/nws_laser_tr.png
+  
   palette:
     - scheme: default
       primary: custom
@@ -26,7 +27,11 @@ theme:
     - content.tabs.link
     - navigation.instant
     - navigation.tracking
-    - navigation.top
+    #- navigation.sections  # Sections pliables dans le menu latéral
+    #- navigation.expand    # Développe automatiquement les sections
+    #- navigation.top       # Bouton retour en haut
+    #- toc.follow          # La TOC suit le scroll
+    #- toc.integrate       # Intègre la TOC dans la navigation
     - search.highlight
     - search.share
     - search.suggest
@@ -65,6 +70,9 @@ extra_css:
   - stylesheets/extra.css
 
 markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 2
   - admonition
   - pymdownx.details
   - pymdownx.superfences
