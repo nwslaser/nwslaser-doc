@@ -55,6 +55,35 @@ La prévention des accidents laser repose sur une combinaison de contrôles tech
 - **Procédures administratives :** Formation du personnel, zones de contrôle laser délimitées et signalisées, et nomination d'un responsable de la sécurité laser (LSO).
 - **Équipement de Protection Individuelle (EPI) :** Le port de lunettes de protection spécifiques à la longueur d'onde du laser utilisé est **obligatoire** pour toute personne se trouvant dans la zone de danger. Des gants et des vêtements de protection ignifuges peuvent également être nécessaires. [2]
 
+## Équipements de protection individuelle
+
+Lors de la proximité avec des sources laser de classe 3B/4, des équipements de protection individuelle appropriés tels que des lunettes de sécurité doivent être utilisés. Le filtre de lunettes approprié minimum doit avoir une **DENSITÉ OPTIQUE (D.O.)** suffisante pour réduire l'intensité du rayonnement à des niveaux acceptables pour l'œil. Le filtre des lunettes doit avoir un indice d'échelle adéquat (LB) conforme à la norme européenne EN207 qui s'applique aux protecteurs oculaires utilisés pour la protection contre l'exposition accidentelle au rayonnement laser (EPI). L'indice d'échelle adéquat est résumé ci-dessous.
+
+## Protection oculaire - Filtres contre le rayonnement laser accidentel @1064nm
+
+| Caractéristique | Valeur |
+|-----------------|--------|
+| **Longueur d'onde** | 1064nm |
+| **Mode** | Q-switched |
+| **Densité optique** | DO >7 |
+| **Indice d'échelle (EN207)** | RLB6 +DLB6 |
+| **Transmission de lumière visible** | TLV>30% |
+| **Marquage** | 1064 DIR LB6 |
+
+<div class="image-texte-cadre">
+    <img src="/assets/icons/danger_laser_grand.png" alt="Avertissement Laser">
+    <p>
+        <strong>Indice d'échelle LB6 :</strong> L'indice d'échelle LB6 garantit que le filtre résiste au rayonnement Q-switched direct pendant 5 secondes.
+    </p>
+</div>
+
+<div class="image-texte-cadre">
+    <img src="/assets/icons/danger_laser_grand.png" alt="Avertissement Laser">
+    <p>
+        <strong>Limite des lunettes de protection :</strong> Notez que les lunettes de protection protègent contre l’énergie diffusée ou réfléchie, mais ne sont pas conçues pour protéger d’une exposition directe au faisceau. Ne regardez jamais directement dans l’ouverture de sortie du laser, ni les réflexions du faisceau sur des surfaces métalliques ou spéculaires. En dehors du risque pour les yeux, une exposition directe et prolongée au rayonnement laser peut également causer de graves lésions cutanées.
+    </p>
+</div>
+
 ## Conclusion
 
 La sécurité laser est une responsabilité partagée. Une compréhension claire des risques associés aux yeux, à la peau et aux incendies, ainsi que le respect rigoureux des classifications et des mesures de prévention, sont indispensables pour prévenir les accidents. En adoptant une culture de la sécurité et en utilisant systématiquement les équipements de protection appropriés, il est possible d'exploiter la puissance de la technologie laser tout en garantissant la sécurité de tous.

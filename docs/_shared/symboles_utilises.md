@@ -31,7 +31,7 @@
 <div class="image-texte-cadre">
     <img src="/assets/icons/danger_ecrasement.png" alt="Avertissement danger feu">
     <p>
-        <strong>Danger risque d'écrasment des mains :</strong> Ce symbole indique un risque d'écrasement ou de pincement des mains et/ou des doigts.
+        <strong>Danger risque d'écrasement des mains :</strong> Ce symbole indique un risque d'écrasement ou de pincement des mains et/ou des doigts.
     </p>
 </div>
 
