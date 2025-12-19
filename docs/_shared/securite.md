@@ -6,7 +6,7 @@ L'utilisation des lasers, bien que courante dans de nombreux domaines industriel
 
 Les yeux sont extrêmement vulnérables aux rayonnements laser, car le cristallin peut focaliser un faisceau laser sur la rétine, augmentant ainsi sa densité de puissance et son potentiel de dommage de manière exponentielle. Les lésions oculaires constituent le danger le plus grave associé à l'utilisation des lasers. [1]
 
-![Illustration des dommages oculaires causés par un laser](../assets/risque_yeux.png)
+![Illustration des dommages oculaires causés par un laser](/assets/risque_yeux.png)
 
 Les dommages dépendent de la longueur d'onde du laser. Les longueurs d'onde courtes (proche infrarouge à visible) peuvent traverser les structures antérieures de l'œil et être absorbées par la rétine, provoquant des dommages permanents à la vision centrale. Les longueurs d'onde plus longues (infrarouge moyen et lointain) sont absorbées par la cornée et peuvent provoquer des brûlures douloureuses mais généralement non permanentes. [2]
 
@@ -20,7 +20,7 @@ Les dommages dépendent de la longueur d'onde du laser. Les longueurs d'onde cou
 
 L'exposition de la peau à un faisceau laser, en particulier ceux de haute puissance (Classe 3B et 4), peut provoquer des lésions graves. Les effets vont de l'érythème (rougeur) à des brûlures profondes et à la carbonisation des tissus. [3]
 
-![Illustration des dommages cutanés causés par un laser](../assets/risque_peau.png)
+![Illustration des dommages cutanés causés par un laser](/assets/risque_peau.png)
 
 Le danger dépend de la puissance du laser, de la durée d'exposition, de la pigmentation de la peau et de la zone exposée. Les rayonnements ultraviolets (UV) et infrarouges (IR) sont particulièrement agressifs car ils sont fortement absorbés par les tissus cutanés. [3]
 
@@ -28,9 +28,20 @@ Le danger dépend de la puissance du laser, de la durée d'exposition, de la pig
 
 Les lasers de haute puissance, en particulier ceux de Classe 4, génèrent une chaleur intense capable d'enflammer des matériaux combustibles. Ce risque est particulièrement présent dans les environnements de laboratoire et industriels où des solvants, des plastiques, des tissus ou d'autres matériaux inflammables peuvent se trouver à proximité du faisceau laser. [2]
 
-![Illustration du risque d'incendie lié au laser](../assets/risque_incendie.png)
+![Illustration du risque d'incendie lié au laser](/assets/risque_incendie.png)
 
 Il est impératif de maintenir la zone de travail exempte de tout matériau inflammable et de disposer d'équipements d'extinction appropriés, tels qu'un extincteur et un bassin d'eau, à proximité immédiate de la zone d'opération du laser. [2]
+
+
+## Risques électriques
+
+Une tension électrique dangereuse est présente dans le système laser. Cette tension peut être encore présente lorsque l'alimentation du système est débranchée.
+
+![Illustration du risque d'incendie lié au laser](/assets/icons/danger_elec.png)
+
+L'ouverture du système laser expose l’utilisateur à des dangers.
+Une intervention inappropriée ou effectuée par un personnel non habilité expose à des risques d’électrocution, ainsi qu’à des dangers d’utilisation. Toute tentative d’ouverture du système laser ou d’un de ses composants annulera la garantie.
+Ne jamais faire fonctionner le système avec les façades ou capotages enlevées.
 
 ## Classification des Lasers
 
@@ -49,7 +60,7 @@ Les lasers sont classés en fonction de leur potentiel de danger pour les yeux e
 
 La prévention des accidents laser repose sur une combinaison de contrôles techniques, de procédures administratives et d'équipements de protection individuelle (EPI).
 
-![Équipement de protection pour la sécurité laser](../assets/protection_equipement.png)
+![Équipement de protection pour la sécurité laser](/assets/protection_equipement.png)
 
 - **Contrôles techniques :** Utilisation de boîtiers de protection, de systèmes de verrouillage et de signaux d'avertissement lumineux.
 - **Procédures administratives :** Formation du personnel, zones de contrôle laser délimitées et signalisées, et nomination d'un responsable de la sécurité laser (LSO).

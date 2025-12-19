@@ -84,8 +84,8 @@ Ce connecteur regroupe les entrées et sorties numériques pour le contrôle des
 | 8 | ROUGE | SORTIE LASER ACTIF |
 | 9 | NOIR | SORTIE MARQUAGE EN COURS |
 | 10 | VIOLET | SORTIE OPTO_OUT_3 |
-| 11 | GRIS/ROSE | SORTIE OPTO_OUT_4 |
-| 12 | ROUGE/BLEU | SORTIE OPTO_OUT_5 |
+| 11 | ORANGE | SORTIE OPTO_OUT_4 |
+| 12 | TURQUOISE | SORTIE OPTO_OUT_5 |
 
 #### Spécifications Électriques
 
