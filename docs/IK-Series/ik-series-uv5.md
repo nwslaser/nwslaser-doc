@@ -30,7 +30,7 @@ hide:
 
 # 1. Description du Produit
 
-Le dispositif laser IK-SERIES-UV5 est un laser DPSS UV (longueur d'onde 355nm), conçu pour être intégré à des machines ou assemblé à d'autres composants afin de constituer un système de marquage laser. Ce laser délivre un faisceau laser de haute puissance crête à 355 nm sur la cible. Le faisceau est dévié par un système de balayage X-Y et focalisé sur un point très petit (quelques microns) grâce à une lentille F-Theta. L'irradiance (W/cm²) de ce point est si élevée qu'elle vaporise ou grave le matériau.
+Le dispositif laser IK-SERIES-UV5 est un laser DPSS UV (longueur d'onde 355nm), conçu pour être intégré à des machines ou assemblé à d'autres composants afin de constituer un système de marquage laser performant. Ce laser délivre un faisceau laser de haute puissance crête à 355 nm sur la cible. Le faisceau est dévié par un système de balayage X-Y et focalisé sur un point très petit (quelques microns) grâce à une lentille F-Theta. L'irradiance (W/cm²) de ce point est si élevée qu'elle vaporise ou grave le matériau.
 
 
 !!! tip "Le laser IK-SERIES est équipé de différentes fonctions"
