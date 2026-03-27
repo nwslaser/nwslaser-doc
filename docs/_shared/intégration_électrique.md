@@ -1,11 +1,15 @@
-## Configuration des Connecteurs (Gamme IK-SERIES)
+# 3. Intégration Électrique
+
+Cette section détaille les prérequis électriques pour l'installation du module laser au sein de votre équipement, ainsi que les principes d'alignement et d'encombrement pour garantir un fonctionnement optimal.
+
+## 3.1 Configuration des Connecteurs (Gamme IK-SERIES)
 
 Cette page détaille la configuration des broches pour les principaux connecteurs de l'équipement.
 
 ![Schéma de la face arrière](../assets/draws/iks-fa.drawio.png)
 
 
-### Connecteur d'alimentation 24VDC (6 broches)
+### 3.1.1 Connecteur d'alimentation 24VDC (6 broches)
 
 Ce connecteur fournit l'alimentation principale 24VDC à l'appareil.
 
@@ -24,7 +28,7 @@ Ce connecteur fournit l'alimentation principale 24VDC à l'appareil.
     IKS-CA-PW5
 ---
 
-### Connecteur Interlock (4 broches)
+### 3.1.2 Connecteur Interlock (4 broches)
 
 Ce connecteur gère la boucle de sécurité (interlock). Les contacts sont secs et se ferment lorsque la chaîne de sécurité est active (par exemple, porte fermée et verrouillée).
 
@@ -43,7 +47,7 @@ Ce connecteur gère la boucle de sécurité (interlock). Les contacts sont secs 
     IKS-CA-IL5
 ---
 
-### Connecteur Moteur (8 broches)
+### 3.1.3 Connecteur Moteur (8 broches)
 
 Ce connecteur contrôle le moteur pas-à-pas et reçoit les signaux du fin de course.
 
@@ -66,7 +70,7 @@ Ce connecteur contrôle le moteur pas-à-pas et reçoit les signaux du fin de co
     IKS-CA-MP5
 ---
 
-### Connecteur E/S (12 broches)
+### 3.1.4 Connecteur E/S (12 broches)
 
 Ce connecteur regroupe les entrées et sorties numériques pour le contrôle des opérations de marquage.
 
@@ -87,7 +91,7 @@ Ce connecteur regroupe les entrées et sorties numériques pour le contrôle des
 | 11 | ORANGE | SORTIE OPTO_OUT_4 |
 | 12 | TURQUOISE | SORTIE OPTO_OUT_5 |
 
-#### Spécifications Électriques
+#### 3.1.5 Spécifications Électriques
 
 Les entrées et sorties de ce connecteur présentent les caractéristiques électriques suivantes :
 
@@ -99,16 +103,27 @@ Les entrées et sorties de ce connecteur présentent les caractéristiques élec
 !!! quote "Référence du câble longueur 5m optionnel"
     IKS-CA-ES5
 
-### Connecteur Ethernet PC laser
+### 3.1.6 Connecteur Ethernet laser
 
-Ce connecteur permet de connecter le laser à un PC au travers d'une liaison Ethernet.
+Ce connecteur permet de connecter le laser au travers d'une liaison Ethernet.
+Cette liaison peut servir à piloter le laser :
+
+• Directement depuis un PC Windows en Ethernet TCP/IP (en standard),
+
+• Au travers d'un réseau industriel Profinet (en option),
+
+• Au travers d'un réseau industriel Ethernet/IP (en option),
+
+• Au travers d'un réseau MQTT (en option).
+
+
 
 ![Schéma du connecteur Ethernet-PC](../assets/eth.png)
 
 !!! quote "Référence du câble longueur 5m optionnel"
     IKS-CA-ETHL
 
-### Connecteur Ethernet Caméra de vision
+### 3.1.7 Connecteur Ethernet Caméra de vision
 
 Ce connecteur permet de connecter la caméra de vision ou le lecteur de code sur votre système au travers d'une liaison Ethernet.
 
@@ -117,7 +132,7 @@ Ce connecteur permet de connecter la caméra de vision ou le lecteur de code sur
 !!! quote "Référence du câble longueur 5m optionnel"
     IKS-CA-ETHV
 
-### Connecteur USB - Laser
+### 3.1.8 Connecteur USB - Laser
 
 Ce connecteur permet de connecter le laser à un PC au travers d'une liaison USB de type B.
 
@@ -126,7 +141,7 @@ Ce connecteur permet de connecter le laser à un PC au travers d'une liaison USB
 !!! quote "Référence du câble longueur 5m optionnel"
     IKS-CA-USBB
 
-### Connecteur USB - Carte d'axe
+### 3.1.9 Connecteur USB - Carte d'axe
 
 Ce connecteur permet de connecter la carte d'axe intégrée au laser au travers d'un connecteur de type C.
 

@@ -45,8 +45,11 @@ Le dispositif laser IK-SERIES-UV5 est un laser DPSS UV (longueur d'onde 355nm), 
 --8<-- "docs/_shared/classification_laser_integrable.md"
 <br>
 
---8<-- "docs/_shared/connecteurs.md"
+--8<-- "docs/_shared/intégration_mécanique_IKS_UV5.md"
 <br>
 
---8<-- "docs/_shared/communication_profinet.md"
+--8<-- "docs/_shared/intégration_électrique.md"
+<br>
+
+--8<-- "docs/_shared/communication_industrielle.md"
 <br>

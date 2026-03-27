@@ -1,6 +1,6 @@
-# 5. Communication Profinet
+# 5. Communication bi-directionnelle au travers d'un réseau industriel (Profinet, EtherNetIP, MQTT)
 
-Ce chapitre détaille les procédures de communication et de pilotage du laser **IK-SERIES UV 5** via une interface réseau **Profinet**. Il s'adresse aux intégrateurs, régleurs et automaticiens souhaitant automatiser le processus de marquage laser en environnement de production.
+Ce chapitre détaille les procédures de communication et de pilotage du laser **IK-SERIES UV 5** via une interface réseau **Profinet**, **EtherNetIP** ou **MQTT**. Il s'adresse aux intégrateurs, régleurs et automaticiens souhaitant automatiser le processus de marquage laser en environnement de production.
 
 ## 5.1. Introduction
 
@@ -8,11 +8,11 @@ Ce chapitre détaille les procédures de communication et de pilotage du laser *
 Le contrôle du système de marquage repose sur une architecture hybride, combinant la préparation graphique sur PC et le pilotage automatisé par automate programmable (API/PLC). Le processus global se déroule en plusieurs grandes étapes :
 
 *   **Création et chargement des jobs** : Les modèles de marquage (ou jobs) sont initialement créés, configurés et sauvegardés à l'aide du logiciel **SamLight**. Ils sont ensuite transférés et stockés directement dans la mémoire interne du laser.
-*   **Interface de communication (Profinet vers RS232)** : Afin d'intégrer le laser dans un réseau industriel standard, les requêtes envoyées par l'automate transitent via le bus de terrain Profinet. Une passerelle matérielle convertit ensuite ces requêtes pour communiquer avec la carte de pilotage laser via son interface série RS232.
+*   **Interface de communication (Profinet/EtherNetIP/MQTT vers RS232)** : Afin d'intégrer le laser dans un réseau industriel standard, les requêtes envoyées par l'automate transitent via le bus de terrain. Une passerelle matérielle convertit ensuite ces requêtes pour communiquer avec la carte de pilotage laser via son interface série RS232.
 *   **Pilotage par commandes ASCII** : Une fois les jobs en mémoire, l'automate prend le relais. Il contrôle le laser en envoyant des chaînes de caractères au format ASCII.
 
 ### Capacités du pilotage automatisé
-L'envoi de ces commandes ASCII à travers l'interface Profinet/RS232 permet une grande flexibilité en production. Il est notamment possible de :
+L'envoi de ces commandes ASCII à travers l'interface Profinet/EtherNetIP/MQTT vers RS232 permet une grande flexibilité en production. Il est notamment possible de :
 
 *   **Gérer le cycle de marquage** : Sélectionner un job précis en mémoire et déclencher son exécution.
 *   **Modifier des données à la volée** : Mettre à jour des informations dynamiques en temps réel juste avant le marquage, telles que des numéros de série, des dates, des codes d'équipe ou des références de pièces, sans avoir besoin de repasser par le logiciel SamLight.
@@ -87,23 +87,36 @@ Chaque commande envoyée génère une réponse de la part de la carte.
 
 Voici les commandes ASCII les plus couramment utilisées pour un cycle de production automatisé.
 
-### Sélectionner un Job (JN)
+**Sélectionner un Job (JN) :**
 Charge en mémoire active un job préalablement transféré sur la carte.
-*   **Syntaxe** : `JN <Numéro_Job><CR>`
-*   **Exemple d'envoi** : `JN 1<CR>` (Sélectionne le job numéro 1)
-*   **Réponse attendue** : `0:<CR>` (Succès)
 
-### Lancement du marquage (M)
+• Syntaxe : JN <Numéro_Job><CR>
+
+• Exemple d'envoi : JN 1<CR> (Sélectionne le job numéro 1)
+
+• Réponse attendue : 0:<CR> (Succès)
+
+**Lancement du marquage (M) :**
 Démarre le process de marquage du job sélectionné.
-*   **Syntaxe** : `M <1><CR>`
-*   **Exemple d'envoi** : `M 1<CR>` (Démarre le marquage)
-*   **Réponse attendue** : `0:<CR>` (Succès)
-*   **Note** : `M 0<CR>` permet d'arrêter le marquage.
 
-### Modification d'un numéro de série (TX)
+• Syntaxe : M <1><CR>
+
+• Exemple d'envoi : M 1<CR> (Démarre le marquage)
+
+• Réponse attendue : 0:<CR> (Succès)
+
+• Note : M 0<CR> permet d'arrêter le marquage.
+
+**Modification d'un numéro de série (TX) :**
 Modifie le contenu de l'entité texte sélectionnée.
-*   **Syntaxe** : `TX <nom entité> <contenu><CR>`
-*   **Exemple d'envoi** : `TX NumSerie1 SN-2026-1234<CR>`
-*   **Réponse attendue** : `0:<CR>` (Le texte est mis à jour en mémoire)
+
+• Syntaxe : TX <nom entité> <contenu><CR>
+
+• Exemple d'envoi : TX NumSerie1 SN-2026-1234<CR>
+
+• Réponse attendue : 0:<CR> (Le texte est mis à jour en mémoire)
+
+
+
 
 > [Consulter la liste complète des commandes FCI](https://download.scaps.com/downloads/Software/Programming/Flash_Control_Interface/Manual/html/index.html?command_list.htm)
