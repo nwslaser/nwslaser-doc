@@ -10,7 +10,8 @@ Avant de procéder à l'installation, veuillez vérifier que vous disposez des �
 * Le laser IK-SERIES alimenté et connecté en USB à votre ordinateur.
 
 Vous pouvez télécharger le logiciel et les fichiers de configuration en cliquant sur le lien suivant :
-**[📥 Télécharger le logiciel Samlight (Logiciel + Configuration)](https://drive.google.com/drive/folders/1QK9otejte4bkTfFHs4lx1a--OD--lzYi?usp=sharing)**
+**[📥 Télécharger le logiciel SAMLight (Logiciel + Configuration )](https://drive.google.com/uc?export=download&id=1oamHv5DN0xic6myk0kiK7bC055td7rIE )**
+
 
 ## 4.2 Installation du logiciel SAMLIGHT
 
