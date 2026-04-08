@@ -15,7 +15,7 @@ La passerelle configurée dans ce document va donc se charger de traduire les tr
 
 !!! info "Téléchargement requis"
     Vous pouvez télécharger le logiciel et le dossier de configuration en un seul clic :
-    **[📥 Télécharger le package Profinet (Logiciel + Configuration)](../assets/logiciel/package_profinet.zip)**
+    **[📥 Télécharger le package Profinet (Logiciel + Configuration)](https://drive.google.com/file/d/1SNInJnRlS2pk8QM3qjuAth7XH2oxFpvF/view?usp=drive_link)**
 
 Avant de commencer, assurez-vous de disposer des éléments suivants :
 
