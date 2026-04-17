@@ -7,10 +7,10 @@ hide:
 <!-- BANDEAU HÉROS SANS BOUTONS -->
 <div class="hero-classic">
   <div class="hero-title">
-    <h1>IK-Series F20</h1> 
+    <h1>IK-Series IKS-MP20</h1> 
   </div>
   <div class="hero-image-only">
-    <img src="../../assets/ik_series.png" alt="Machine IK-Series F20">
+    <img src="../../assets/ik_series.png" alt="Machine IK-Series IKS-MP20">
   </div>
   <div class="hero-subtitle">
     <p>Notice Complète & Guide d'Utilisation</p>
@@ -33,7 +33,7 @@ hide:
 
 # 1. Description du Produit
 
-Le dispositif laser IK-SERIES-F20 est un laser fibré 20W (longueur d'onde 1064 nm), conçu pour être intégré à des machines ou assemblé à d'autres composants afin de constituer un système de marquage laser performant. Ce laser délivre un faisceau laser de haute puissance crête à 1064 nm sur la cible. Le faisceau est dévié par un système de balayage X-Y et focalisé sur un point très petit (quelques microns) grâce à une lentille F-Theta. L'irradiance (W/cm²) de ce point est si élevée qu'elle vaporise ou grave le matériau.
+Le dispositif laser IKS-MP20 est un laser fibré 20W (longueur d'onde 1064 nm), conçu pour être intégré à des machines ou assemblé à d'autres composants afin de constituer un système de marquage laser performant. Ce laser délivre un faisceau laser de haute puissance crête à 1064 nm sur la cible. Le faisceau est dévié par un système de balayage X-Y et focalisé sur un point très petit (quelques microns) grâce à une lentille F-Theta. L'irradiance (W/cm²) de ce point est si élevée qu'elle vaporise ou grave le matériau.
 
 
 !!! tip "Le laser IK-SERIES est équipé de différentes fonctions"
@@ -48,7 +48,7 @@ Le dispositif laser IK-SERIES-F20 est un laser fibré 20W (longueur d'onde 1064 
 --8<-- "docs/_shared/classification_laser_integrable.md"
 <br>
 
---8<-- "docs/_shared/intégration_mécanique_IKS_UV5.md"
+--8<-- "docs/_shared/intégration_mécanique_IKS_MP20.md"
 <br>
 
 --8<-- "docs/_shared/intégration_électrique.md"
