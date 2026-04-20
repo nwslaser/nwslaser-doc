@@ -4,7 +4,7 @@
 
 #### Restrictions d'usage
 
-Ce composant laser est un produit laser de classe 4 selon la norme IEC 60825-1:2014, doté d'une source laser invisible de classe 4 et d'un faisceau de visée visible 3R. La gamme IK-SERIES est conçue et fabriquée pour être intégrée par un fabricant qualifié à d'autres composants afin de constituer un système de marquage laser complet ou une machine de traitement laser.
+Ce composant laser est un produit laser de classe 4 selon la norme IEC 60825-1:2014, doté d'une source laser invisible de classe 4 et d'un faisceau de visée visible en classe 2. La gamme IK-SERIES est conçue et fabriquée pour être intégrée par un fabricant qualifié à d'autres composants afin de constituer un système de marquage laser complet ou une machine de traitement laser.
 
 <div class="image-texte-cadre">
     <img src="/assets/icons/danger_laser_grand.png" alt="Avertissement Laser">

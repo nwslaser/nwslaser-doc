@@ -54,7 +54,7 @@ Le dispositif laser IKS-MP20 est un laser fibré 20W (longueur d'onde 1064 nm), 
 --8<-- "docs/_shared/intégration_électrique.md"
 <br>
 
---8<-- "docs/_shared/installation_logiciel.md"
+--8<-- "docs/_shared/installation_logiciel_IKS_MP20.md"
 <br>
 
 --8<-- "docs/_shared/communication_industrielle.md"

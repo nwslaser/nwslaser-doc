@@ -50,7 +50,7 @@ L'option Flash du laser agit comme un disque dur interne. Les Jobs y sont sauveg
 1.  **Ouvrir le Job** : Assurez-vous que votre fichier (ex : `Job_N1.sjf`) est bien ouvert et actif dans SamLight.
 2.  **Accéder au menu Flash** : Dans la barre de menus, ouvrez le menu `Extras` puis `Flash`.
 3.  **Sélectionner l'emplacement (Index)** : Sélectionnez l'emplacement souhaité, par exemple le Job n°6.
-    *   *Attention : Mémorisez bien ce numéro. Si vous l'enregistrez sur l'emplacement 6, l'automate devra obligatoirement envoyer la commande `JN 6<CR>` pour le charger.*
+    *   *Attention : Mémorisez bien ce numéro. Si vous l'enregistrez sur l'emplacement 6, l'automate devra obligatoirement envoyer la commande `JN 6&lt;CR&gt;` pour le charger.*
 4.  **Lancer le transfert** : Cliquez sur le bouton `Job editor to Flash`. Une barre de progression indiquera le transfert vers la carte SCAPS.
 ![Scaps_flash](../assets/scaps_flash.png)
 5.  **Validation** : Une fois le transfert terminé, le Job est stocké de manière non-volatile.
@@ -68,11 +68,11 @@ Pour interagir avec le laser, l'automate doit formuler ses requêtes en respecta
 
 ### Format général d'une requête
 La forme générale pour envoyer des données au laser est la suivante :
-`<Commande> <Par1> <Par2> .. <ParN><CR>`
+`<Commande> <Par1> <Par2> .. <ParN><CR>;`
 
 *   **`<Commande>`** : Le mnémonique de la commande (ex: `JN`). Les commandes sont insensibles à la casse.
 *   **`<Par1>` à `<ParN>`** : Les paramètres de la commande séparés par un espace.
-*   **`<CR>`** : Le caractère de fin de ligne (Carriage Return, code ASCII 13 ou `0x0D` en hexadécimal). **Ce caractère est obligatoire.**
+*   **`<CR>;`** : Le caractère de fin de ligne (Carriage Return, code ASCII 13 ou `0x0D` en hexadécimal). **Ce caractère est obligatoire.**
 
 ### Gestion des réponses et temporisation
 Chaque commande envoyée génère une réponse de la part de la carte.
@@ -90,31 +90,31 @@ Voici les commandes ASCII les plus couramment utilisées pour un cycle de produc
 **Sélectionner un Job (JN) :**
 Charge en mémoire active un job préalablement transféré sur la carte.
 
-• Syntaxe : JN <Numéro_Job><CR>
+• Syntaxe : JN <Numéro_Job>&lt;CR&gt;
 
-• Exemple d'envoi : JN 1<CR> (Sélectionne le job numéro 1)
+• Exemple d'envoi : JN 1&lt;CR&gt; (Sélectionne le job numéro 1)
 
-• Réponse attendue : 0:<CR> (Succès)
+• Réponse attendue : 0:&lt;CR&gt; (Succès)
 
 **Lancement du marquage (M) :**
 Démarre le process de marquage du job sélectionné.
 
-• Syntaxe : M <1><CR>
+• Syntaxe : M 1&lt;CR&gt;
 
-• Exemple d'envoi : M 1<CR> (Démarre le marquage)
+• Exemple d'envoi : M 1&lt;CR&gt; (Démarre le marquage)
 
-• Réponse attendue : 0:<CR> (Succès)
+• Réponse attendue : 0:&lt;CR&gt; (Succès)
 
-• Note : M 0<CR> permet d'arrêter le marquage.
+• Note : M 0&lt;CR&gt; permet d'arrêter le marquage.
 
 **Modification d'un numéro de série (TX) :**
 Modifie le contenu de l'entité texte sélectionnée.
 
-• Syntaxe : TX <nom entité> <contenu><CR>
+• Syntaxe : TX <nom entité> <contenu>&lt;CR&gt;
 
-• Exemple d'envoi : TX NumSerie1 SN-2026-1234<CR>
+• Exemple d'envoi : TX NumSerie1 SN-2026-1234&lt;CR&gt;
 
-• Réponse attendue : 0:<CR> (Le texte est mis à jour en mémoire)
+• Réponse attendue : 0:&lt;CR&gt; (Le texte est mis à jour en mémoire)
 
 
 

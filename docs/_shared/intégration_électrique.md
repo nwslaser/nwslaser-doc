@@ -41,7 +41,7 @@ Ce connecteur gère la boucle de sécurité (interlock). Les contacts sont secs 
 | 3 | BLANC | CANAL 2 DÉPART |
 | 4 | VERT | CANAL 2 RETOUR |
 
-> **Note :** Un contact sec est établi entre les broches 1-2 et entre les broches 3-4 lorsque la porte est verrouillée et la chaîne de sécurité est validée.
+> **Note :** Un contact sec doit être établi entre les broches 1-2 et entre les broches 3-4 lorsque la porte est verrouillée et que la chaîne de sécurité est validée.
 
 > **Note :** L'entrée OPTON IN 5 est le reflet de l'état de l'interlock.
 
