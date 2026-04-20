@@ -43,6 +43,8 @@ Ce connecteur gère la boucle de sécurité (interlock). Les contacts sont secs 
 
 > **Note :** Un contact sec est établi entre les broches 1-2 et entre les broches 3-4 lorsque la porte est verrouillée et la chaîne de sécurité est validée.
 
+> **Note :** L'entrée OPTON IN 5 est le reflet de l'état de l'interlock.
+
 !!! quote "Référence du câble longueur 5m optionnel"
     IKS-CA-IL5
 ---
