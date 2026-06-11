@@ -35,13 +35,13 @@ Ce connecteur gère la boucle de sécurité (interlock). Les contacts sont secs 
 Certification du Niveau de Performance (PL d) du circuit Interlock
 Conformité à la norme EN ISO 13849-1 Le système de verrouillage de sécurité (Interlock) de ce laser de marquage a été conçu, développé et intégré de manière à répondre aux exigences de la norme EN ISO 13849-1 relative à la sécurité des machines et aux parties des systèmes de commande relatives à la sécurité.
 
-Architecture matérielle et composants La conception du circuit de sécurité garantit un Niveau de Performance d (PL d) / Catégorie 3. Ce niveau élevé de fiabilité sécuritaire, qui prévient tout tir laser intempestif ou accidentel, est assuré par la combinaison des éléments suivants :
+• Architecture matérielle et composants La conception du circuit de sécurité garantit un Niveau de Performance d (PL d) / Catégorie 3. Ce niveau élevé de fiabilité sécuritaire, qui prévient tout tir laser intempestif ou accidentel, est assuré par la combinaison des éléments suivants :
 
-Architecture Redondante (Catégorie 3) : Le circuit d'interlock repose sur un câblage à double canal. La redondance des contacts matériels permet de s'assurer qu'une défaillance matérielle unique sur l'un des canaux n'entraîne en aucun cas la perte de la fonction de sécurité.
+• Architecture Redondante (Catégorie 3) : Le circuit d'interlock repose sur un câblage à double canal. La redondance des contacts matériels permet de s'assurer qu'une défaillance matérielle unique sur l'un des canaux n'entraîne en aucun cas la perte de la fonction de sécurité.
 
-Haute fiabilité des composants (MTTFd) : Les relais, contacteurs et composants électroniques constituant la chaîne de sécurité ont été rigoureusement sélectionnés. Leur Temps Moyen avant Défaillance Dangereuse (MTTFd) est qualifié d'élevé.
+• Haute fiabilité des composants (MTTFd) : Les relais, contacteurs et composants électroniques constituant la chaîne de sécurité ont été rigoureusement sélectionnés. Leur Temps Moyen avant Défaillance Dangereuse (MTTFd) est qualifié d'élevé.
 
-Couverture de Diagnostic (DC) : Le système intègre des mécanismes de surveillance capables de détecter et de signaler une défaillance (comme le collage d'un contact) avant qu'une nouvelle sollicitation de la machine ne présente un risque.
+• Couverture de Diagnostic (DC) : Le système intègre des mécanismes de surveillance capables de détecter et de signaler une défaillance (comme le collage d'un contact) avant qu'une nouvelle sollicitation de la machine ne présente un risque.
 
 Fonctionnement : Dès l'ouverture de la boucle d'interlock (ex: ouverture des portes de l'enceinte de marquage ou appui sur l'arrêt d'urgence), le système matériel coupe instantanément l'alimentation ou le signal d'émission de la source laser. L'intégrité de la sécurité physique de l'opérateur est ainsi garantie à 100 %.
 
